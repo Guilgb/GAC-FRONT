@@ -126,7 +126,7 @@ const EvaluationView = () => {
                     onClick={() => handleSubmit("failed")}
                 />
                 <CustomButton
-                    color="#2D60FF"
+                    color="#0B5F26"
                     hasborder={false}
                     children="Aprovar"
                     onClick={() => handleSubmit("approval")}

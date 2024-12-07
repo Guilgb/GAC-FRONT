@@ -90,7 +90,7 @@ const Evaluation = () => {
                 <S.SearchButton>
                     <CustomButton
                         children="Buscar"
-                        color="#2D60FF"
+                        color="#0B5F26"
                         hasborder={false}
                         hasIcon={true}
                         iconName="search"

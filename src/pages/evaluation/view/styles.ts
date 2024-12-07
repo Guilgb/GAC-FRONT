@@ -6,13 +6,13 @@ export const Content = styled.section`
 `;
 
 export const PageTitle = styled.div`
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
-
   padding-bottom: 10px;
   border-bottom: 1px solid #b1b1b1;
   width: 100%;
-  color: #2d60ff;
+  color: #0B5F26;
+  font-style: oblique;
 `;
 
 export const FilterContainer = styled.div`

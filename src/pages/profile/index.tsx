@@ -13,7 +13,6 @@ const Profile = () => {
     }, [])
     return (
         <S.Content>
-           
             <S.ProfileImg src={profilePhoto}  alt="profile-photo"/>
             <S.UserInfos>
                 <p><b>Nome: </b>{profile?.name} </p>    

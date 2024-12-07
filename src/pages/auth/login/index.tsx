@@ -67,7 +67,7 @@ const Login = () => {
                 <CustomButton
                     children="Logar"
                     onClick={() => handleSubmit}
-                    color="#2D60FF" hasborder={false}
+                    color="#0B5F26" hasborder={false}
                     type="submit"
                 />
                 <CustomButton

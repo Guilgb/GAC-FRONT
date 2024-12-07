@@ -20,7 +20,7 @@ export const Content = styled.section`
     180deg,
     rgba(255, 255, 255, 0.8) 0%,
     rgba(101, 181, 238, 0.8) 41.5%,
-    rgba(45, 96, 255, 0.8) 100%
+    rgba(11, 95, 38, 0.8) 100%
   );
 `;
 

@@ -18,10 +18,12 @@ export const Content = styled.section`
 `;
 
 export const Title = styled.h1`
-color: #2d60ff;
-font-size: 18px;
+color: #1C9441;
+font-size: 20px;
+font-style: oblique;
 `
 
 export const Text = styled.p`
-font-size: 16px;
+font-size: 15px;
+font-style: italic;
 `
