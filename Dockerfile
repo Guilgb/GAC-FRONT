@@ -22,6 +22,8 @@ RUN npm install @rollup/rollup-linux-x64-gnu
 # Copie o restante do código do projeto para o diretório de trabalho
 COPY . .
 
+COPY .env .env
+
 # Execute o build do projeto
 RUN npm run build
 
