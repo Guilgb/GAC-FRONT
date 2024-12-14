@@ -18,8 +18,8 @@ export const LogoBox = styled.div`
 `
 
 export const LogoImg = styled.img`
-  width: 2.5rem;
-  height: 3.1875rem;
+  width: 5rem;
+  height: 5rem;
 
 @media screen and (min-width: 600px){
   display: flex;
