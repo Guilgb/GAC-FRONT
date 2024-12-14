@@ -43,7 +43,7 @@ export const InputsWrapper = styled.div`
 export const ForgetPassword = styled.p`
   font-size: 0.75rem;
   font-weight: 500;
-  color: #2D60FF;
+  color: #0B5F26;
   text-align: end;
 `;
 

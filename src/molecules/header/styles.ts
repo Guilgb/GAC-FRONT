@@ -40,7 +40,7 @@ export const LogoText = styled.p`
   font-size: 2.5rem;
   font-weight: 400;
   display: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   @media screen and (min-width: 600px){
     display: flex;

@@ -28,7 +28,7 @@ export const ItemsBox = styled.div`
 export const Link = styled.p<{ selected: boolean }>`
   height: 3.125rem;
   text-decoration: none;
-  color: ${(props) => props.selected ? "#2D60FF" : " #b1b1b1"};
+  color: ${(props) => props.selected ? "#0B5F26" : " #b1b1b1"};
   font-size: 0.875rem;
   align-items: center;
   display: flex;
@@ -43,7 +43,7 @@ export const Link = styled.p<{ selected: boolean }>`
   img {
     height: 1.375rem;
     width: 1.375rem;
-    color: #2D60FF;
+    color: #0B5F26;
     filter: ${(props) =>
       props.selected
         ? "invert(33%) sepia(95%) saturate(2547%) hue-rotate(208deg) brightness(98%) contrast(95%)"

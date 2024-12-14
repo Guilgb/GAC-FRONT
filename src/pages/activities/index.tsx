@@ -50,7 +50,7 @@ const Activities = () => {
                 <S.ButtonAndHoursContainer>
                     <CustomButton
                         children="Adicionar"
-                        color="#2D60FF"
+                        color="#0B5F26"
                         hasborder={false}
                         onClick={() => { setModal(true) }}
                         hasIcon={true}

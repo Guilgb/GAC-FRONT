@@ -13,7 +13,7 @@ export const HeaderOptions = styled.section`
 `;
 
 export const TextOptions = styled.p<{ selected?: boolean }>`
-  color: ${(props) => (props.selected ? "#2D60FF" : "#B1B1B1")};
+  color: ${(props) => (props.selected ? "#0B5F26" : "#B1B1B1")};
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
@@ -44,7 +44,7 @@ export const HoursText = styled.p`
   font-size: 1.125rem;
 
   b {
-    color: #2D60FF;
+    color: #0B5F26;
     font-weight: 600;
   }
 `;

@@ -133,7 +133,7 @@ const Register = () => {
                     <CustomButton
                         children="Salvar"
                         onClick={() => handleSubmit}
-                        color="#2D60FF"
+                        color="#0B5F26"
                         hasborder={false}
                         type="submit"
                     />

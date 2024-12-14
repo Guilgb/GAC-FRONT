@@ -12,7 +12,7 @@ export const PageTitle = styled.div`
   padding-bottom: 10px;
   border-bottom: 1px solid #b1b1b1;
   width: 100%;
-  color: #2d60ff;
+  color: #0B5F26;
 `;
 
 export const FilterContainer = styled.div`

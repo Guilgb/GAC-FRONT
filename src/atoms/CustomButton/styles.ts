@@ -7,7 +7,7 @@ export const Button = styled.button<{color: string, hasborder: boolean, height?:
     border: 0;
     border-radius: 0.9375rem;
     font-weight: 700;
-    border: ${({ hasborder }) => hasborder ? "1px solid #1D1D1D" : "border: 1px solid #2D60FF"};
+    border: ${({ hasborder }) => hasborder ? "1px solid #1D1D1D" : "border: 1px solid #0B5F26"};
     color: ${({ hasborder }) => hasborder ? "#000000" : "#FFFFFF"};
     cursor: pointer;
     display: flex;

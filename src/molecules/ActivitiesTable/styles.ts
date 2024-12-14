@@ -53,7 +53,7 @@ export const Status = styled.td<{ status: string }>`
   font-weight: 400;
   color: ${(props) =>
     props.status === "pending"
-      ? "#2D60FFC9"
+      ? "#0B5F26"
       : props.status === "true"
       ? "#00C48C"
       : "hidden"};

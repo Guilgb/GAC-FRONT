@@ -62,7 +62,7 @@ const Header = () => {
             <S.SideBarIcon src={openSideBar ? CloseIcon : ThreeBarsIcon} alt="open-side-bar" onClick={openSideBarEvent} />
             <S.LogoBox>
                 <S.LogoImg src={logoIcon} alt="logo" />
-                <S.LogoText>Gerenciador de Atividades Complementares</S.LogoText>
+                <S.LogoText>UniHoras</S.LogoText>
             </S.LogoBox>
 
             <S.UserBox>

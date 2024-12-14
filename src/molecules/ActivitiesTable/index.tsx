@@ -138,7 +138,7 @@ export const ActivitiesTable = ({ type, evalueateActivities }: ActivitiesProps) 
                             <S.SendButton>
                                 <CustomButton
                                     children="Enviar"
-                                    color="#2D60FF"
+                                    color="#0B5F26"
                                     hasborder={false}
                                     onClick={handleSend}
                                     hasIcon={true}
