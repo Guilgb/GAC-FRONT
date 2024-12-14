@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://gac-iqx5.onrender.com/",
+  baseURL: process.env.API_URL,
   headers: { Accept: "application/json" },
 });
 
