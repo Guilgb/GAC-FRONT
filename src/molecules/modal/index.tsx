@@ -294,7 +294,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                                 <CustomButton
                                     type="submit"
                                     children="Salvar"
-                                    color="#2D60FF"
+                                    color="#0B5F26"
                                     hasborder={false}
                                     onClick={handleSubmitActivity}
                                 />
@@ -357,7 +357,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                             />
                             <CustomButton
                                 children="Salvar"
-                                color="#2D60FF"
+                                color="#0B5F26"
                                 hasborder={false}
                                 onClick={handleMeasurer}
                             />
@@ -391,7 +391,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                             />
                             <CustomButton
                                 children="Salvar"
-                                color="#2D60FF"
+                                color="#0B5F26"
                                 hasborder={false}
                                 onClick={handleCourse}
                             />
@@ -425,7 +425,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                             />
                             <CustomButton
                                 children="Salvar"
-                                color="#2D60FF"
+                                color="#0B5F26"
                                 hasborder={false}
                                 onClick={handleCategory}
                             />
@@ -453,7 +453,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                             />
                             <CustomButton
                                 children="Continuar"
-                                color="#2D60FF"
+                                color="#0B5F26"
                                 hasborder={false}
                                 onClick={handleDelete}
                             />
@@ -493,7 +493,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                                 />
                                 <CustomButton
                                     children="Continuar"
-                                    color="#2D60FF"
+                                    color="#0B5F26"
                                     hasborder={false}
                                     onClick={() => handleComments()}
                                 />

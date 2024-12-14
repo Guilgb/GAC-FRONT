@@ -3,20 +3,67 @@ import * as S from "./styles.ts"
 const Home = () => {
     return (
         <S.Content>
-            <S.Title>O que são Atividades Complementares (ACs):</S.Title>
+            <S.Title>ATIVIDADES COMPLEMENTARES DO CURSO (ACC):</S.Title>
             <S.Text>
-                As ACs são atividades obrigatórias nos cursos de graduação que ajudam os alunos a
-                aprender de forma independente, envolvendo estudos acadêmicos, científicos e culturais.
-                Elas têm como objetivo ampliar o conhecimento e preparar o aluno para o mercado de
-                trabalho.
+                1. As atividades complementares são componentes curriculares obrigatórios
+                   previstos nas diretrizes curriculares do Ministério da Educação (MEC) que
+                   devem ser realizadas fora do horário regular de aula e além dos componentes
+                   curriculares obrigatórios do curso;
+            </S.Text>
+            <S.Text>
+                2. O principal objetivo das atividades complementares é proporcionar ao
+                estudante uma formação acadêmica e profissional mais ampla, permitindo o
+                desenvolvimento de habilidades e competências que complementam o perfil
+                esperado para o egresso do curso;
             </S.Text>
 
-            <S.Title>Princípios das Atividades Complementares:</S.Title>
+            <S.Text>
+                3. As atividades complementares devem atender à regulamentação específica
+                de cada curso de graduação e da instituição, isso envolve a carga horária e
+                os tipos de atividades que são exigidas para cada curso;
+            </S.Text>
 
             <S.Text>
-                As ACs permitem que o aluno explore outras áreas além da sua formação principal,
-                desenvolva pensamento crítico, participe de atividades sociais e científicas, e se envolva
-                com a comunidade.
+            4. Para acessar a regulamentação específica do curso em que você está
+            matriculado, é possível solicitar o projeto pedagógico diretamente ao
+            coordenador ou fazer o download no site da instituição
+            </S.Text>
+
+            <S.Title>PRINCÍPIOS DAS ATIVIDADES COMPLEMENTARES:</S.Title>
+
+            <S.Text>
+                A integração entre ensino, pesquisa e extensão, aliada à flexibilidade curricular,
+                promove o desenvolvimento de atitudes e ações empreendedoras e inovadoras, com
+                foco nas experiências de aprendizagem que capacitem os estudantes e os preparam
+                para a inserção no mercado de trabalho.
+            </S.Text>
+
+            <S.Text>
+                Os princípios das atividades complementares variam de acordo com a
+                regulamentação de cada curso ou instituição, mas geralmente incluem os seguintes
+                aspectos:
+            </S.Text>
+
+            <S.Text>
+                1. Flexibilidade: permite que os discentes escolham atividades de acordo com
+                seus interesses, objetivos acadêmicos e profissionais;
+            </S.Text>
+            
+            <S.Text>
+                2. Integração: articular ensino, pesquisa e extensão, e permite uma conexão
+                entre teoria e prática;
+            </S.Text>
+
+            <S.Text>
+                3. Ampliação da formação: promover o desenvolvimento de competências além
+                do currículo obrigatório, uma vez que pode abranger áreas como cultura,
+                cidadania, empreendedorismo e inovação;
+            </S.Text>
+            
+            <S.Text>
+                4. Interdisciplinaridade: estimular a participação em atividades que envolvam
+                diferentes áreas do conhecimento, inclusive atividades que integram a
+                comunidade em torno do discente e da instituição.
             </S.Text>
 
             <S.Title>Como as Atividades Complementares são organizadas:</S.Title>
@@ -28,73 +75,71 @@ const Home = () => {
                 corretamente.
             </S.Text>
 
-            <S.Title>Tipos de Atividades Complementares:</S.Title>
+            <S.Title>TIPOS DE ATIVIDADES COMPLEMENTARES</S.Title>
 
             <S.Text>
-                Existem diferentes tipos de ACs, como fazer matérias extras, participar de projetos de
-                pesquisa, eventos acadêmicos (seminários, congressos), ou criar conteúdo científico
-                (como artigos, livros, vídeos), além de estágios e outras atividades que contribuam para a
-                formação profissional.
+                Para contabilização das horas, as Atividades Complementares do Curso (ACC)
+                devem ser realizadas, preferencialmente, em ações relacionadas ao ensino,
+                pesquisa e extensão, conforme as cargas horárias e tipos de atividades
+                estabelecidas por cada curso e instituição.
+            </S.Text>
+            
+            <S.Text>
+                Mas geralmente as atividades complementares são compostas por um conjunto de
+                atividades extracurriculares, tais como:
+            </S.Text>
+            
+            <S.Text>
+                <p>●   participação em conferências, seminários, simpósios, palestras, congressos;</p>
+                <p>●   cursos extracurriculares de áreas afins ou de línguas;</p>
+                <p>●   publicação de artigos em revistas;</p>
+                <p>●   estágios voluntários, projetos de pesquisa, monitoria, iniciação científica (IC), projetos de extensão, módulos temáticos, e até disciplinas oferecidas por
+                outras IES.</p>
             </S.Text>
 
-            <S.Title>Validação das Atividades Complementares:</S.Title>
+            <S.Title>
+                REGRAS GERAIS PARA A CONTABILIZAÇÃO DE DAS ATIVIDADES
+                COMPLEMENTARES DO CURSO:
+            </S.Title>
 
             <S.Text>
-                Para que uma AC seja reconhecida, o aluno precisa apresentar um documento que
-                comprove sua participação. O coordenador do curso avalia esse documento e decide se
-                ele vale ou não como AC.
+                1. Para validação das atividades, é necessário apresentar os respectivos
+                documentos comprobatórios, como certificados, declarações ou atestados
+                que comprovem a participação, contendo a descrição das atividades desenvolvidas e o número de horas dedicadas;
+            </S.Text>
+            
+            <S.Text>
+                2. Cada documento apresentado será contabilizado apenas uma vez, mesmo
+                que se enquadre em mais de um critério. Após o reconhecimento do mérito
+                pelo Coordenador do Curso, a carga horária correspondente será registrada;
             </S.Text>
 
-            <S.Title>Regras gerais para as Atividades Complementares:</S.Title>
-
-            <p>1. Limite de carga horária:</p>
-
-            <p>2. Um aluno pode participar de várias atividades, como eventos ou estágios, mas
-                apenas até um terço da carga horária total das ACs (216 horas) pode vir de uma
-                mesma atividade.</p>
-
-            <p>3. Exemplo: Se o aluno fizer monitoria, no máximo 72 horas (1/3 de 216) poderão ser
-                validadas para isso.</p>
-
-            <p>4. Validação de ACs de outras universidades:</p>
-
-            <p>Se um aluno for transferido de outra universidade e realizou atividades complementares
-                lá, essas atividades podem ser aceitas, desde que feitas enquanto ele estava matriculado
-                no curso anterior.</p>
-
-            <S.Text><b>Exemplo:</b> Se o aluno participou de um congresso enquanto estava na outra universidade,
-                ele pode solicitar a validação desse evento.</S.Text>
-
-            <S.Text>5. ACs durante o período de trancamento:</S.Text>
-
             <S.Text>
-                Se o aluno trancar a matrícula, ele ainda pode realizar atividades complementares
-                durante esse período.
+                3. Para todas as atividades realizadas, será aplicado um fator de conversão de
+                1:1. Isso significa que as cargas horárias indicadas nos certificados
+                apresentados serão validadas integralmente, desde que respeitem os limites
+                máximos de carga horária definidos para cada tipo de atividade;
             </S.Text>
-            <S.Text>6. Atividades realizadas após a entrada no curso:</S.Text>
+
             <S.Text>
-                Só são aceitas atividades feitas após o início do curso.
-                <b>Exemplo:</b> Um curso de idiomas realizado antes de o aluno começar a faculdade não será
-                aceito como atividade complementar.
+                4. A entrega dos documentos comprobatórios à coordenação poderá ocorrer a
+                qualquer momento do semestre, e o coordenador do Curso determinará o
+                período de divulgação dos resultados. Após a análise e aprovação das horas
+                de atividades complementares, o coordenador do curso encaminhará os
+                processos à Coordenadoria de Controle Acadêmico;
             </S.Text>
-            <S.Text>7. Transferência e ACs de outro curso:</S.Text>
-            <S.Text>
-                Se o aluno cursou disciplinas em outra faculdade ou outro curso, elas podem ser
-                validadas como ACs.
-                <b>Exemplo:</b> Se um aluno de Engenharia transferido para Administração cursou "Introdução
-                à Programação", essa disciplina pode ser validada como AC.
+
+            <S.Text> 
+                5. Somente poderão ser contabilizadas as atividades que forem realizadas no
+                decorrer do período em que o aluno estiver vinculado ao curso — qualquer
+                atividade realizada pelo aluno antes de estar devidamente matriculado no
+                curso e na instituição de ensino em questão, não serão contabilizadas —
+                sendo garantido aos alunos recebidos por transferência de outras IES o
+                cumprimento proporcional das horas de atividades complementares.
             </S.Text>
-            <S.Text>8. Limite para disciplinas de outros cursos:</S.Text>
-            <S.Text>
-                Se um aluno fizer disciplinas em outro curso (mesmo na mesma faculdade), essas
-                disciplinas podem contar como ACs, mas também seguem o limite de 1/3 da carga
-                horária.
-                <b>Exemplo:</b> Se o aluno cursar "Direito Empresarial" enquanto faz Administração, ele pode
-                contar essa disciplina, mas apenas até 72 horas.
-            </S.Text>
-            <S.Text>
-                Ao final do curso, o aluno deverá ter integralizado 216 horas de Atividades
-                Complementares, o equivalente a 12 créditos.
+            <S.Text> 
+                <p> <strong>Observação:</strong> É fundamental consultar a regulamentação específica do curso em
+                que você está matriculado para evitar possíveis problemas no futuro. </p>
             </S.Text>
         </S.Content>
     );
