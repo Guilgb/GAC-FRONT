@@ -66,15 +66,6 @@ const Home = () => {
                 comunidade em torno do discente e da instituição.
             </S.Text>
 
-            <S.Title>Como as Atividades Complementares são organizadas:</S.Title>
-
-            <S.Text>
-                As ACs devem começar logo no início do curso e têm uma carga horária definida. O curso
-                deve indicar que tipos de atividades podem ser feitas, quantas horas cada uma conta, e o
-                coordenador do curso supervisiona se os alunos estão cumprindo as atividades
-                corretamente.
-            </S.Text>
-
             <S.Title>TIPOS DE ATIVIDADES COMPLEMENTARES</S.Title>
 
             <S.Text>

@@ -20,10 +20,8 @@ export const Content = styled.section`
 export const Title = styled.h1`
 color: #1C9441;
 font-size: 20px;
-font-style: oblique;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 `
-
 export const Text = styled.p`
 font-size: 15px;
-font-style: italic;
 `
