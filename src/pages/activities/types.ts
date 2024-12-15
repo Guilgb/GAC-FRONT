@@ -6,6 +6,6 @@ export interface Activity {
     proof: string;
     startDate: string;
     description: string;
-    comments: string[];
+    comments?: string[];
   }
   

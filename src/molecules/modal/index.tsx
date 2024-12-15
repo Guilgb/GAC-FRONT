@@ -47,7 +47,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
         proof: "",
         startDate: "",
         description: "",
-        comments: "",
+        // comments: "",
     })
 
     const [measurerValues, setMeasurerValues] = useState({
@@ -118,7 +118,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                 H.refetchItems("activity");
                 let activitiesInSession = JSON.parse(sessionStorage.getItem("activities") || "[]");
                 activitiesInSession = activitiesInSession.filter((activity: any) => activity.id !== initialActivityValues.id);
-                let newActivity = { ...activityValues, id: initialActivityValues.id, fileName: activityValues.file.name };
+                const newActivity = { ...activityValues, id: initialActivityValues.id, fileName: activityValues.file.name };
                 activitiesInSession.push(newActivity);
                 sessionStorage.setItem("activities", JSON.stringify(activitiesInSession));
                 H.refetchItems("activity");
@@ -134,7 +134,7 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
             formData.append("proof", activityValues.proof);
             formData.append("startDate", activityValues.startDate);
             formData.append("description", activityValues.description);
-            formData.append("comments", JSON.stringify(activityValues.comments)); // Se for um array
+            // formData.append("comments", JSON.stringify(activityValues.comments)); // Se for um array
             if (activityValues.file) {
                 formData.append("file", activityValues.file);
             }
@@ -144,8 +144,8 @@ const Modal = ({ type, handleDelete, initialActivityValues, initialMeasurerValue
                 }
             }).then((response) => {
                 H.handleAlert("success", "Salvo com sucesso!");
-                let activities = JSON.parse(sessionStorage.getItem("activities") || "[]");
-                let newActivity = { ...activityValues, id: response.data.id, fileName: activityValues.file.name };
+                const activities = JSON.parse(sessionStorage.getItem("activities") || "[]");
+                const newActivity = { ...activityValues, id: response.data.id, fileName: activityValues.file.name };
                 activities.push(newActivity);
                 sessionStorage.setItem("activities", JSON.stringify(activities));
                 H.refetchItems("activity");
